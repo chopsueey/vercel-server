@@ -4,7 +4,7 @@ import axios from "axios";
 import "./App.scss";
 import ListItem from "./components/ListItem";
 
-const baseURL = "https://vercel-server-fawn.vercel.app/api/tasks";
+const baseURL = "https://vercel-server-fawn.vercel.app/api/server/tasks";
 
 function App() {
   const [task, setTask] = useState("");
