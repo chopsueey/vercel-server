@@ -7,7 +7,7 @@ export default function ListItem({ task, id, list, setList }) {
   const [edit, setEdit] = useState(false);
   const [newTask, setNewTask] = useState("");
 
-  const baseURL = "https://vercel-server-brown.vercel.app/api/tasks";
+  const baseURL = "https://vercel-server-fawn.vercel.app/api/tasks";
 
   const deleteTask = async () => {
     try {
